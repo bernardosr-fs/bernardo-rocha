@@ -1,4 +1,4 @@
 import './styles/global.scss';
-import { Home } from './pages'
+import { HomePage } from './pages'
 
-export const App = () => <Home/>
+export const App = () => <HomePage/>

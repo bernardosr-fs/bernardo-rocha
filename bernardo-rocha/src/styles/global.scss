@@ -1,12 +1,18 @@
 @font-face {
-  font-family: libertine;
-  src: url("../assets/fonts/libertine/linux_libertine/LinLibertine_R.ttf");
+  font-family: coolvetica;
+  src: url("../assets/fonts/coolvetica/coolvetica/coolvetica\ rg.otf");
 }
 
-@font-face {
-  font-family: libertine-bold;
-  src: url("../assets/fonts/libertine/linux_libertine/LinLibertine_RB.ttf");
-}
+/* PROJECT COLORS */
+$black-1: #232528;
+
+$white-5: #eaf6ff;
+
+$blue-1: #2a2a72;
+$blue-2: #2f52e0;
+$blue-3: #009ffd;
+
+$orange-2: #ffa400;
 
 * {
   box-sizing: border-box;
@@ -15,7 +21,9 @@
 }
 
 body {
-  font-family: libertine;
+  font-family: coolvetica;
+  background-color: $black-1;
+  color: $white-5;
 }
 
 select,

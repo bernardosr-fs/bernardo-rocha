@@ -1,11 +1,12 @@
-import './style/style.scss'
+import './profile-picture.scss'
+import classNames from 'classnames'
 
 type Props = {
-    className: string | undefined;
+    className?: string;
 }
 
 export const ProfilePicture = ( { className }: Props ) => {
     return (
-        <div className={"profile-picture " + {className}}></div>
+        <div className={classNames('profile-picture', className)}></div>
     )
 }

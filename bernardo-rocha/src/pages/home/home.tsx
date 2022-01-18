@@ -1,9 +1,5 @@
-import { ProfilePicture } from "../../components"
+import { Home } from '../../components'
 
-export const Home = () => {
-    return (
-        <>
-        <ProfilePicture className=""/>
-        </>
-    )
+export const HomePage = () => {
+    return <Home/>
 }
